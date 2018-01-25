@@ -1,0 +1,16 @@
+<h3>Chat!!!!!</h3>
+
+<form (ngSubmit)="onSubmit()">
+  Name:
+  <br>
+  <input name="nameInput" type="text" [(ngModel)]="name" autocomplete="off">
+  <br>
+  <br> Message:
+  <br>
+  <input name="messageInput" type="text" [(ngModel)]="newMessage" autocomplete="off">
+  <button type="submit">Send</button>
+</form>
+
+<div *ngFor="let message of chatMessages ">
+  <strong>{{message.name}}</strong>:{{message.text}}
+</div>

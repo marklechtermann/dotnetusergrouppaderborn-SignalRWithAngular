@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "lightning_talk_signalr_dotnetcore": {
+      "commandName": "Project"
+    }
+  }
+}
